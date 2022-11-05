@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-api",
+  "name": "chatbot-univeso",
   "version": "1.0.0",
-  "description": "Whatsapp api by Ngekoding",
+  "description": "Projeto Integrador - Chatbot para discentes ingressantes da UNIVESP para orientação nos cursos do eixo de computação",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
