@@ -132,18 +132,16 @@ client.on('message', async msg => {
     const saudacaoes = ['Olá ' + nomeContato + ' , tudo bem?', 'Oi ' + nomeContato + ', como vai você?', 'Opa ' + nomeContato + ', tudo certo?'];
     const saudacao = saudacaoes[Math.floor(Math.random() * saudacaoes.length)];
     msg.reply(saudacao + " Escolha uma das opções abaixo para iniciarmos a nossa conversa: \r\n\r\n*1*- Quero saber mais sobre o projeto integrador chatbot univesp \r\n*2*- Gostaria de saber o site da Univesp. \r\n*3*- Apenas quis testar o bot e já estou satisfeito ");
-	}
-  else if (msg.body !== null && msg.body === "1") {
-    msg.reply("Hum " + nomeContato + ", Este projeto ainda está sendo desenvolvido e está em fase de testes")
+    if (msg.body !== null && msg.body === "1") {
+      msg.reply("Hum " + nomeContato + ", Este projeto ainda está sendo desenvolvido e está em fase de testes")
+    }
+    else if (msg.body !== null && msg.body === "2") {
+      msg.reply("Legal " + nomeContato + "! O site da Univesp é: https://univesp.br")
+    }
+    else if (msg.body !== null && msg.body === "3") {
+      msg.reply("Tá certo " + nomeContato + ", Muito obrigado por testar os nossos serviços")
+    }
   }
-  else if (msg.body !== null && msg.body === "2") {
-    msg.reply("Legal " + nomeContato + "! O site da Univesp é: https://univesp.br")
-  }
-  else if (msg.body !== null && msg.body === "3") {
-    msg.reply("Tá certo " + nomeContato + ", Muito obrigado por testar os nossos serviços")
-  }
-
-
   
 });
 
