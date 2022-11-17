@@ -10,7 +10,7 @@ Agradecimento especial ao Pedrinho da NASA, pelos ensinamentos em como consumir 
 
 - Clone ou baixe este repositório
 - Entre na pasta do repositório
-- Faça download
+- Faça download do Node.js diretamente do site (https://nodejs.org/en/download/) e que esteja de acordo com o seu OS
 - Execute `npm install`
 - Execute `npm run start:dev`
 - Abra seu navegador e digite a URL: `http://localhost:8000`
