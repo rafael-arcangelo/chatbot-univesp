@@ -10,6 +10,7 @@ Agradecimento especial ao Pedrinho da NASA, pelos ensinamentos em como consumir 
 
 - Clone ou baixe este repositório
 - Entre na pasta do repositório
+- Faça download
 - Execute `npm install`
 - Execute `npm run start:dev`
 - Abra seu navegador e digite a URL: `http://localhost:8000`
